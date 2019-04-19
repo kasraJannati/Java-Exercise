@@ -78,7 +78,7 @@ public class Main {
         int n = scanner.nextInt(); // 2
         Scanner scanner2 = new Scanner(System.in);
         System.out.println("please enter another number (X)");
-        double x = scanner2.nextInt(); // 4
+        double x = scanner2.nextDouble(); // 4
         int p = 1;
         int i;
         int fix = (2*n) - 1;
